@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/trash.css"
+      rel="stylesheet"
+    />
     <title>To Do List</title>
   </head>
   <body>
@@ -17,7 +21,10 @@
             type="text"
             placeholder="What needs done? E.g. Buy Monster Energy"
           />
-          <button class="button-83" id="add-btn">Add</button>
+          <div class="buttons">
+            <button class="button-83" id="add-btn">Add</button>
+            <button class="button-84" id="clear-btn">Clear</button>
+          </div>
           <ol id="list"></ol>
           <div id="empty"></div>
         </div>
